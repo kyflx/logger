@@ -1,0 +1,9 @@
+# NPM
+node_modules/
+*.log
+
+# Typescript
+build/
+
+# Code coverage
+coverage

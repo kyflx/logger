@@ -1,0 +1,10 @@
+import { cross, radioOff, warning, info, ellipsis } from "figures";
+
+export enum LogLevel {
+  OFF = "OFF",
+  ERROR = "ERROR",
+  WARN = "WARN",
+  INFO = "INFO",
+  DEBUG = "DEBUG",
+  TRACE = "TRACE",
+}

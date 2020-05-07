@@ -1,0 +1,38 @@
+{
+  "name": "@kyflx-dev/logger",
+  "version": "1.0.0",
+  "description": "A logger inspired by lavalink and with stuff taken from @ayanaware/logger",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "prestart": "npm run build",
+    "build": "rimraf build & tsc",
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyflx/logger.git"
+  },
+  "keywords": [
+    "logger",
+    "kyflx"
+  ],
+  "author": "Kyflx Developments",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/kyflx/logger/issues"
+  },
+  "homepage": "https://github.com/kyflx/logger#readme",
+  "devDependencies": {
+    "@types/node": "^13.13.5",
+    "@types/node-emoji": "^1.8.1",
+    "rimraf": "^3.0.2",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@ayanaware/errors": "^1.1.0",
+    "fecha": "^4.2.0",
+    "figures": "^3.2.0",
+    "node-emoji": "^1.10.0"
+  }
+}
